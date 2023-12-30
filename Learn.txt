@@ -1,0 +1,60 @@
+React Components
+-------------------
+
+There are 2 types of react components:
+
+1. Function Based Components
+2. Class Based Components
+
+Note: Always name a component starting with Capital letter
+
+1. Function Based Components:  
+------------------------------
+> It is just a JS function which returns a JSX element.
+
+Note: JSX element is nothing but a React Element after transpiling by Babel.
+React Element in itself is a Object.
+
+e.g.
+
+const HeadingComponent=()=>{
+    return <h1> Namaste react from functional component </h1>;
+}
+
+Calling Other functional component from another component
+1. <ComponentName/>
+2. {ComponentName()}
+
+For JSX Element
+1. {JSX Element}
+
+Thus, within {} we can execute JS inside JSX.
+
+Passing props to a component
+-------------------------------
+It is simply passing arguments to the functional component
+It is wrapped as a object and then passed 
+
+Congig driven UI: UI is rendered on the basis of data
+
+Export
+------
+1. Default Export/Default Import
+2. Individual Export/{} Import
+
+
+React Hooks(state)
+------------
+These are just normal JS functions created by react developers.
+
+2 types of Hooks.
+1. useState
+2. useEffects
+
+State variable is defined inside a component.
+Whenever a state variable changes, react re-renders the component.
+
+
+
+
+
